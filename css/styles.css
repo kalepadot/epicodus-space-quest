@@ -1,20 +1,25 @@
 body {
     position: relative;
+    /* background-attachment: fixed; */
+    background-image: linear-gradient(to right bottom, #413b70, #543b70, #c4416a, #e75e45, #e69100);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .img-box {
     padding: 0;
     margin: auto;
     overflow: hidden;
+    margin: auto;
 }
 
 img {
     width: 100%;
+    height: auto;
 }
 
 ul {
     margin: 12px auto;
-    background-color: #333;
+    background-color: #2d2753;
     padding: 20px 20px;
    
 }
@@ -34,9 +39,22 @@ a {
 }
 h1{
     text-align: center;
+    color: white;
+    margin-top: 30px;
 }
 
 h4{
+    color: white;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    background-color: #2d2753;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
 }
