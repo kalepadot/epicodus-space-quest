@@ -11,3 +11,24 @@ body {
 img {
     width: 100%;
 }
+
+ul {
+    margin: 12px auto;
+    background-color: #333;
+    padding: 20px 20px;
+   
+}
+
+li {
+    color: white;
+    display: inline;
+    text-align: center;
+    padding: 200px 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
