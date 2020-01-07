@@ -32,3 +32,11 @@ a {
     text-align: center;
     cursor: pointer;
 }
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    text-decoration: underline;
+}
