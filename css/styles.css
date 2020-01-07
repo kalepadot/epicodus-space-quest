@@ -1,0 +1,13 @@
+body {
+    position: relative;
+}
+
+.img-box {
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
