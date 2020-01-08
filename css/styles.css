@@ -1,21 +1,26 @@
 body {
     position: relative;
+    background-image: linear-gradient(to top, #88a33f, #009f95, #009edf, #008eff, #c567db);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .img-box {
     padding: 0;
     margin: auto;
     overflow: hidden;
+    position: relative;
 }
 
-img {
+#main-img{
     width: 100%;
 }
 
 ul {
     margin: 12px auto;
-    background-color: #333;
+    background-image: linear-gradient(to right, #3a32ad, #6138bd, #833dcc, #a542d9, #c746e5);
     padding: 20px 20px;
+
+
    
 }
 
@@ -24,6 +29,7 @@ li {
     display: inline;
     text-align: center;
     padding: 200px 20px;
+    font-weight: 200;
 }
 
 a {
@@ -34,9 +40,26 @@ a {
 }
 h1{
     text-align: center;
+    color: #3a32ad;
+    text-shadow: -13px 7px 15px;
 }
 
 h4{
     text-align: center;
     text-decoration: underline;
+    color: #6138bd;
+    font-size: 20px;
+}
+p{
+    width: 50%;
+    margin: auto;
+    background-image: linear-gradient(to top, #f782e2, #ff88af, #ffa880, #ffd26a, #e6f880);
+    padding: 30px 50px;
+    border-radius: 600px;
+
+}
+
+#alien {
+    margin-left: 45%;
+    margin-top: 5px;
 }
